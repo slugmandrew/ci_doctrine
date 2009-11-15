@@ -12,7 +12,7 @@
 
 	<?php if(Current_User::user()): ?>
 		<h1>Hello <em><?php echo Current_User::user()->username; ?></em>.</h1>
-		<h2><?php echo anchor('logout','Logout'); ?></h2>		
+		<h3><?php echo anchor('logout','Logout'); ?></h3>		
 	<?php else: ?>
 		<h2>New Users: <?php echo anchor('signup','Create an Account'); ?>.</h2>
 		<h2>Members: <?php echo anchor('login','Login'); ?>.</h2>
