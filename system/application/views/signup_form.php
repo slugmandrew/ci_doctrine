@@ -17,12 +17,12 @@
 	<?php echo validation_errors('<p class="error">','</p>'); ?>
 	
 	<p>
-		<label for="username">Username: </label>
+		<label for="username">Your Username: </label>
 		<?php echo form_input('username', set_value('username')); ?>
 		
 	</p>
 	<p>
-		<label for="password">Password: </label>
+		<label for="password">Your Password: </label>
 		<?php echo form_password('password'); ?>
 	</p>
 	<p>
@@ -30,7 +30,7 @@
 		<?php echo form_password('passconf'); ?>
 	</p>
 	<p>
-		<label for="email">E-mail: </label>
+		<label for="email">Your E-mail: </label>
 		 <?php echo form_input('email', set_value('email')); ?>
 	</p>
 	<p>
